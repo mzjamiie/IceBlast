@@ -1,0 +1,22 @@
+body{
+	/*font-family: 'Comfortaa', sans-serif;	Or just stylized fonts*/ 
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+}
+
+.vertical-space{
+	height: 70px;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+.pad-left{
+	padding-left: 50px;
+}
